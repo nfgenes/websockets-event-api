@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 const ethers = require('ethers');
 const EventEmitter = require('events');
-const { abi } = require('./abi.json');
+const { abi } = require('./utils/abi.json');
 
 const PORT = process.env.PORT || 4001;
 const WS_KEY = process.env['WS_KEY'];
