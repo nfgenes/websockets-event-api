@@ -10,7 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@replit/database": "^2.0.1",
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
     "ethers": "^5.5.3",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "request": "^2.88.2"
   }
 }
